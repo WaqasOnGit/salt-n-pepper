@@ -5,6 +5,7 @@
     box-sizing: border-box;
     
 }
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
 
 html {
     font-size: 62.5%;
@@ -25,14 +26,18 @@ green
 #0f0f0f
 
 */
+.colorf{
+    color:  #212529;
+}
 
 
-
+.text-start{
+    text-align: start;
+}
 
 .text-center {
     text-align: center;
 }
-
 .text-none {
     text-decoration: none;
 }
@@ -40,7 +45,79 @@ green
 .text-white {
     color: #ffffff;
 }
+.text-black {
+    color: #ffffff;
+}
+.FSP{
+    font-size: 14px;
+    color: #BBBBBB;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.FS-12{
+    font-size: 16px;
+}
+.FS{
+    font-size: 16px;
+    color: #BBBBBB;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.FS-2{
+    font-size: 36px; 
+    
+}
+.FS-8{
+    font-size: 32px;
+}
 
+.FS-5{
+    font-size: 24px;
+}
+.FS-4{
+font-size: 48px ;
+
+}
+.FS-7{
+    font-family: futurak;
+}
+.FS-9{
+    font-size: 52px;
+}
+.FS-10{
+font-size: 21PX;
+}
+.FS-3{
+    color: #DF1512;
+    font-size: 16px;
+    font-family: 'Apercu Pro', sans-serif;
+    margin: 24px 0px 8px ;
+}
+.FS-11{
+    color: #DF1512;
+    font-size: 10px;
+    font-family: 'Apercu Pro', sans-serif;
+    margin: 8px ;
+display: flex;
+justify-content: center;
+    
+}
+
+.FP{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.FS-6{
+    font-size: 24px;
+    font-family: futurak;
+}
+.boder-r{
+    border: 15px solid rgb(253, 253, 255);
+   border-radius: 5px;
+}
 .bg-red {
     background-color: var(--red);
 }
@@ -127,24 +204,70 @@ green
 
 
 /* margin classes */
-
-m-2{
-    margin: 10px;
+.m1{
+    margin: 0px 0px 10px ;
 }
-m-3{
-    margin: 15px;
+.mt-2{
+  margin: 0px 0px 18px ;
 }
-m-4{
+.m-3{
+    margin: 0px 0px 15px ;
+}
+.m-4{
     margin: 20px;
 }
-m-5{
-    margin: 25px;
+.m-5{
+    margin: 0px 0px 24px;
 }
-
+.m-6{
+    margin: 0px 0px 30px;
+}
+.m7
+{
+    margin: 26px ;
+}
+.m8{
+    margin:0px 0px 0px 15px ;
+}
+.m9{
+    margin: 20px 0px;
+}
+.m10{
+    margin:  75px 0px;
+}
+.m13{
+    margin: 32px 0px 70px;
+}
+.m14{
+    margin: 32px 0px 30px;
+}
+.m15{
+    margin: 16px 0px 0px ;
+}
+.p24{
+    padding: 0px 0px 24px;
+}
+.pd{
+padding: 0px 0px 16px;
+}
+.pd-3{
+    padding: 15px;
+}
+.pd-2{
+    padding: 0px 0px 24px;
+    }
+.pd-4{
+    padding: 75px 0px ;
+}
+.pd5{
+    padding: 0px 0px 12px;
+}
 .border{
     border: 1px solid var(--white);
 }
-
+.bgc{
+    background-color: #000000;
+}
 .rounded{
     border-radius: 30px;
     cursor: pointer;
